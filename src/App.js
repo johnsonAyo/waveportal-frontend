@@ -99,12 +99,12 @@ const App = () => {
            That's pretty cool right? Connect your Ethereum wallet and wave at me!
         </div>
 
-        <button className="btn btn--white btn--animated" onClick={wave}>
+        <button className="btn" onClick={wave}>
           Wave at Me
         </button>
 
         {!currentAccount && (
-          <button className="btn btn--white btn--animated" onClick={connectWallet}>
+          <button className="btn" onClick={connectWallet}>
             Connect Wallet
           </button>
         )}

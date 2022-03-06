@@ -6,7 +6,7 @@
 }
 
 .dataContainer {
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   max-width: 600px;
@@ -32,10 +32,14 @@
   border-radius: 5px;
 }
 
-.btn{
+.btn {
   cursor: pointer;
-  margin-top: 16px;
-  height:2rem;
+  margin-top: 50px;
+  height: 3rem;
+  transition: all 3s;
 }
 
-
+.btn:hover {
+  transform: skewY(3deg);
+  background-color: rgb(237, 243, 227);
+}
